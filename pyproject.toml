@@ -2,7 +2,7 @@
 requires = ["setuptools", "setuptools-scm"]
 
 [project]
-name = "sparring_match_scoring"
+name = "match-scoring"
 authors = [
     {name = "Timothy Lee", email = "tim.heath.lee@gmail.com"}
 ]
