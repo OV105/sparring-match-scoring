@@ -1,2 +1,3 @@
-# sparring-match-scoring
-System for scoring martial arts tournament fights
+# Sparring Match Scoring system
+
+A system for scoring martial arts tournament fights, using a smart phone app.

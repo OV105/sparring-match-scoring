@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+
+[project]
+name = "sparring_match_scoring"
+authors = [
+    {name = "Timothy Lee", email = "tim.heath.lee@gmail.com"}
+]
+description = "System for scoring martial arts tournament fights"
+readme = "README.md"
+requires-python = ">3.11"
+keywords = ["sports"]
+license = ""
+classifiers = [
+    "Programming Language :: Python :: 3"
+]
+dependencies = [
+    ""
+]
+dynamic = ["version"]
+
+[project.scripts]
+my-script = "sparring_match_scoring.sparring_match_scoring:main"
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "src"
+]
+addopts = ""
+
+[tool.black]
+line-length = 88
+target-version = ['py311']
+include = '\.pyi?$'
+exclude = '''
+/(
+  \.toml
+  |\.sh
+  |\.git
+  |\.ini
+  |\.tox
+  |Dockerfile
+  |Jenkinfile
+  |blib2to3
+  |tests/data
+)/
+'''
